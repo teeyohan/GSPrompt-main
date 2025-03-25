@@ -26,6 +26,5 @@ For NYUDv2:
 For PASCAL-Context:
 - `bash run_gsp_pascal.sh`
 
-Where the optimal dataset F-measure scores of boundary detection is evaluated used tools in 
-
+The optimal-dataset-scale F-measure (odsF) of boundary detection is evaluated using this tools:
 - Evaluation Tools: https://github.com/prismformore/Boundary-Detection-Evaluation-Tools
