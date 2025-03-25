@@ -7,7 +7,7 @@ PyTorch implementation of "Integrating Generic and Specific Prompts for Multi-ta
 </div>
 
 ## Setup
-The dependencies are in requirements.txt. Python=3.8 is recommended for the installation of the environment.
+Python=3.7 is recommended for the installation of the environment.
 
 ## Dataset
 It is recommended to download the following datasets from the official website:
