@@ -12,7 +12,7 @@ Python=3.7 with torch=1.10.0+cu111 and torchvision=0.11.0+cu111 are recommended 
 ## Dataset
 It is recommended to download the following datasets from the official website:
 
-- NYUDv2: https://yann.lecun.com.
+- NYUDv2: https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html
 - PASCAL-Context: https://developer.imdb.com.
 
 , and place them in the "GSPrompt-main/data/" directory.
