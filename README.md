@@ -26,4 +26,6 @@ For NYUDv2:
 For PASCAL-Context:
 - `bash run_gsp_pascal.sh`
 
-Where the optimal dataset F-measure scores of boundary detection is evaluated used tools in https://github.com/prismformore/Boundary-Detection-Evaluation-Tools
+Where the optimal dataset F-measure scores of boundary detection is evaluated used tools in 
+
+- Evaluation Tools: https://github.com/prismformore/Boundary-Detection-Evaluation-Tools
