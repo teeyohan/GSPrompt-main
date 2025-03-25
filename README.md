@@ -7,7 +7,7 @@ PyTorch implementation of "Integrating Generic and Specific Prompts for Multi-ta
 </div>
 
 ## Setup
-Python=3.7 with torch=1.10.0 and torchvision=0.11.0 are recommended for the installation of the environment.
+Python=3.7 with torch=1.10.0+cu111 and torchvision=0.11.0+cu111 are recommended for the installation of the environment.
 
 ## Dataset
 It is recommended to download the following datasets from the official website:
