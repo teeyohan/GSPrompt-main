@@ -1,6 +1,6 @@
 # GSPrompt-main
 
-PyTorch implementation of "Integrating Generic and Specific Prompts for Multi-task Visual Scene Understanding".
+PyTorch implementation of "Learning Generic and Specific Prompts with Contrastive Constraints for Multi-task Visual Scene Understanding".
 
 <div align="center">
   <img width="80%" alt="" src="GSPrompt.png">
