@@ -3,7 +3,7 @@
 PyTorch implementation of "Learning Generic and Specific Prompts with Contrastive Constraints for Multi-task Visual Scene Understanding".
 
 <div align="center">
-  <img width="80%" alt="" src="GSPrompt.png">
+  <img width="100%" alt="" src="GSPrompt.png">
 </div>
 
 ## Setup
@@ -18,6 +18,7 @@ It is recommended to download the following datasets from the official website:
 
 - NYUDv2: https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html
 - PASCAL-Context: https://cs.stanford.edu/~roozbeh/pascal-context/
+- Cityscapes: https://www.cityscapes-dataset.com/
 
 , and place them in the "GSPrompt-main/data/" directory.
 
@@ -29,6 +30,9 @@ For NYUDv2:
 
 For PASCAL-Context:
 - `bash run_gsp_pascal.sh`
+
+For Cityscapes:
+- `bash run_gsp_cityscapes.sh`
 
 The optimal-dataset-scale F-measure (odsF) of boundary detection is evaluated using this tools:
 - Evaluation Tools: https://github.com/prismformore/Boundary-Detection-Evaluation-Tools
