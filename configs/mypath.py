@@ -1,0 +1,9 @@
+import os
+PROJECT_ROOT_DIR = '/home/hty/GSPrompt-main'
+
+db_root = './data'
+
+db_names = {'PASCALContext': 'PASCALContext', 'NYUD_MT': 'NYUDv2', 'CityScapes': 'cityscapes'}
+db_paths = {}
+for database, db_pa in db_names.items():
+    db_paths[database] = os.path.join(db_root, db_pa)

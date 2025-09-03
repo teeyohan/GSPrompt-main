@@ -1,0 +1,51 @@
+# Setup
+version_name: mtpl_cityscapes_vitLp16
+out_dir: "./logs/"
+
+# Database
+train_db_name: cityscapes
+val_db_name: cityscapes
+trBatch: 2
+valBatch: 4
+nworkers: 0
+ignore_index: 255
+
+# Optimizer and scheduler
+intermediate_supervision: False
+val_interval: 500
+epochs: 999999
+max_iter: 20000
+optimizer: adam
+optimizer_kwargs:
+   lr: 1.e-5
+   weight_decay: 1.e-6
+scheduler: poly
+grad_clip_param: {'max_norm': 10, 'norm_type': 2}
+ignore_invalid_area_depth: True
+
+# Model
+model: TaskPrompter
+backbone: TaskPrompter_vitL
+head:  conv
+embed_dim: 768
+final_embed_dim: 768
+prompt_len: 1
+chan_nheads: 16
+use_ctr: False
+
+# Tasks
+task_dictionary:
+   include_semseg: True
+   include_depth: True
+
+# Task Loss
+loss_kwargs:
+   loss_weights:
+       semseg: 1.0
+       depth: 10.0
+
+# Prompt Loss
+lambda_spe: 5.
+lambda_spe_norm: 0.1
+lambda_sha: 5.
+lambda_sha_norm: 0.1
