@@ -36,3 +36,15 @@ For Cityscapes:
 
 The optimal-dataset-scale F-measure (odsF) of boundary detection is evaluated using this tools:
 - Evaluation Tools: https://github.com/prismformore/Boundary-Detection-Evaluation-Tools
+
+## Citations
+If you find our work useful in your research please consider citing our paper:
+
+@article{han2025learning,
+  title={Learning generic and specific prompts with contrastive constraints for multi-task visual scene understanding},
+  author={Han, Tianyu and Xu, Zhimin and Li, Wanying and Hu, Haohao and He, Xinxin and He, Song and Zan, Peng and Bo, Xiaochen},
+  journal={Neurocomputing},
+  pages={131586},
+  year={2025},
+  publisher={Elsevier}
+}
