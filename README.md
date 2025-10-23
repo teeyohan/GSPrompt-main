@@ -22,8 +22,8 @@ It is recommended to download the following datasets from the official website:
 
 , and place them in the "GSPrompt-main/data/" directory.
 
-## Training and evaluation
-For training and evaluation, use the following script:
+## Training and Testing
+For training and testing, use the following script:
 
 For NYUDv2:
 - `bash run_gsp_nyud.sh`
@@ -37,7 +37,7 @@ For Cityscapes:
 The optimal-dataset-scale F-measure (odsF) of boundary detection is evaluated using this tools:
 - Evaluation Tools: https://github.com/prismformore/Boundary-Detection-Evaluation-Tools
 
-## Citations
+## Citation
 If you find our work useful in your research please consider citing our paper:
 ```
 @article{han2025learning,
